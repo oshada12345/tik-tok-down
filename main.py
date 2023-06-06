@@ -9,15 +9,15 @@ from pyppeteer import launch
 from tiktok import TikTokAPI
 
 # Replace <BOT_TOKEN> with your Telegram bot token
-TOKEN = '<BOT_TOKEN>'
+TOKEN = '6179143538:AAHL47_OiZ0hmLUd7yJWsUhMCdFvHtpKIv4'
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
 # Replace <USERNAME> and <PASSWORD> with your TikTok account credentials
-USERNAME = '<USERNAME>'
-PASSWORD = '<PASSWORD>'
+USERNAME = 'vimukthioada5@gmail.com'
+PASSWORD = 'OShada2005@'
 api = TikTokAPI(username=USERNAME, password=PASSWORD)
 
 
