@@ -1,5 +1,6 @@
-aiogram
-pytube
-pyppeteer
-tiktokapi
+aiogram==2.15.2
+pytube==11.0.0
+pyppeteer==0.2.5
+tiktokapi==0.10.0
+pyppeteer-heroku==0.0.3
 
